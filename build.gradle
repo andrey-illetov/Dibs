@@ -1,8 +1,15 @@
 buildscript {
     ext {
+
+        androidMinSdk = 27
+        androidTargetSdk = 32
+        androidCompileSdk = 33
+
+        compilerExtensionVersion = '1.4.4'
         compose_ui_version = '1.2.0'
         hilt_version = '2.44.2'
         core_ktx_version = '1.9.0'
+        material_version = '1.4.0'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

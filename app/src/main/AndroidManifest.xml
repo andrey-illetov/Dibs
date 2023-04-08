@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Dibs"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".DibsActivity"
             android:exported="true"
             android:theme="@style/Theme.Dibs">
             <intent-filter>
